@@ -96,11 +96,11 @@ export default function NavBar({ user, setUser }){
                     <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Log in to your Project Connect account</h2>
                     <form onSubmit={handleSubmit}>
                         <label>Email Address <br/>
-                            <input type='email' name='email' onChange={handleChange}/><br/>
+                            <input type='email' name='email' placeholder='test@gmail.com' onChange={handleChange}/><br/>
                         </label>
                         <br/>
                         <label>Password<br/>
-                            <input type='password' name='password' onChange={handleChange}/>
+                            <input type='password' name='password' placeholder='123456' onChange={handleChange}/>
                         </label>
                         <div className='login-form-button'>
                             <button type='submit'>Log In</button>
