@@ -1,7 +1,7 @@
 {
   "name": "team-ux-project",
   "engines": {
-    "node": "16.13.2"
+    "node": "16.13.1"
   },
   "proxy": "http://localhost:3001",
   "version": "0.1.0",
